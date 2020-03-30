@@ -1,7 +1,5 @@
 # Read Me First
-The following was discovered as part of building this project:
-
-* The original package name 'it.totolook.demo.micro-service' is invalid and this project uses 'it.totolook.demo.microservice' instead.
+![Java CI with Maven](https://github.com/totolook/micro-service-tutorial/workflows/Java%20CI%20with%20Maven/badge.svg?branch=master)
 
 # Getting Started
 
