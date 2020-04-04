@@ -4,5 +4,13 @@ stages:
   - runScriptConfig:
       image: maven:3-jdk-11
       shellScript: mvn clean package
+- name: Test
+  steps:
+  - runScriptConfig:
+      image: maven:3-jdk-11
+      shellScript: mvn test
+  - runScriptConfig:
+      image: java:8
+      shellScript: echo "YAY PASSATO"
 timeout: 60
 notification: {}
